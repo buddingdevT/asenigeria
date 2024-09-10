@@ -878,25 +878,25 @@
         
         observer.observe(document.getElementById("first_count"));
     </script>
-    <h2 class="section-title mb-3">Our Achievements</h2>
+    <h2 class="section-title mb-3">OUR ACHIEVEMENTS</h2>
     <p class="lead">Our Achievements: A Measure of Our Success, a Testament to Our Growth, and a Celebration of Our Accomplishments.</p>
     <ul id="tab_list">
         <li>
-            <h3>Registered</h3>
-            <span data-target="6700" id="first_count">6700</span><span>+</span>
+            <h3>REGISTERED</h3>
+            <span data-target="6700" id="first_count">740</span><span>+</span>
         </li>
         <li>
-            <h3>Trained</h3>
-            <span data-target="2300" id="second_count">2300</span><span>+</span>
+            <h3>TRAINED</h3>
+            <span data-target="2300" id="second_count">70</span><span>+</span>
         </li>
         <li>
-            <h3>Certified</h3>
-            <span data-target="900" id="third_count">900</span><span>+</span>
+            <h3>CERTIFIED</h3>
+            <span data-target="900" id="third_count">65</span><span>+</span>
         </li>
     </ul>
     <script>
         function countUp() {
-            var i = 6600; // a counter which is displayed every 100ms
+            var i = 0; // a counter which is displayed every 100ms
             
             // create interval which fires the callback every 100ms.
             // `interval` holds the interval ID, which is later used to clear the
@@ -906,13 +906,13 @@
                 document.getElementById("first_count").innerHTML = i++; // write `i` and increment
                 
                 // if `i` is grater than 100 then clear the interval (stop calling the callback)
-                if (i > 6700) clearInterval(interval);
-            }, 100);
+                if (i > 740) clearInterval(interval);
+            }, 5);
         }
         
         countUp();
         function countUp3() {
-            var i = 800; // a counter which is displayed every 100ms
+            var i = 0; // a counter which is displayed every 100ms
             
             // create interval which fires the callback every 100ms.
             // `interval` holds the interval ID, which is later used to clear the
@@ -922,13 +922,13 @@
                 document.getElementById("third_count").innerHTML = i++; // write `i` and increment
                 
                 // if `i` is grater than 100 then clear the interval (stop calling the callback)
-                if (i > 900) clearInterval(interval);
-            }, 100);
+                if (i > 70) clearInterval(interval);
+            }, 10);
         }
         
         countUp3();
         function countUp2() {
-            var i = 2200; // a counter which is displayed every 100ms
+            var i = 0; // a counter which is displayed every 100ms
             
             // create interval which fires the callback every 100ms.
             // `interval` holds the interval ID, which is later used to clear the
@@ -938,8 +938,8 @@
                 document.getElementById("second_count").innerHTML = i++; // write `i` and increment
                 
                 // if `i` is grater than 100 then clear the interval (stop calling the callback)
-                if (i > 2300) clearInterval(interval);
-            }, 100);
+                if (i > 65) clearInterval(interval);
+            }, 10);
         }
         
         countUp2();
@@ -1320,15 +1320,32 @@
     </div>
 </section>
 
-<section id="apply-section">
-            <h1>Applications are closed</h1>
-</section> 
+<!-- <section id="apply-section">
+    <div class="container">
+        <h1 class="appsection-title">First Global Challenge</h1>
+        <div class="application-box">
+        <span><h3>Applications are closed</h3></span>
+        </div>
+    </div>
+</section>-->
+<hr>
+<section class="applications">
+    <h1 class="section-title">COMPETITIONS APPLICATIONS</h1>
+    <div class="container">
+        <h1 class="section-subtitle">FIRST Global Challenge</h1>
+        <div class="application-box">
+            <span>
+                <h1>APPLICATIONS ARE CLOSED</h1>
+            </span>
+        </div>
+    </div>
+</section>
 
 <section class="site-section bg-light" id="pricing-section">
     <div class="container">
         <div class="row site-section" id="faq-section">
             <div class="col-12 text-center" data-aos="fade">
-                <h2 class="section-title">Frequently Ask Questions</h2>
+                <h2 class="section-title">FREQUENTLY ASKED QUESTIONS</h2>
             </div>
         </div>
         <div class="row">
@@ -1407,7 +1424,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="section-title mb-3">Get in Touch</h2>
+                        <h2 class="section-title mb-3">GET IN TOUCH</h2>
                         <p class="mb-5">Have any questions or inquiries? Feel free to reach out to us.</p>
                     </div>
                 </div>
