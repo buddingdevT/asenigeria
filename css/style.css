@@ -12730,6 +12730,8 @@ textarea:not(:focus):valid~.floating-label[data-v-6cb69558] {
     margin-right: 2rem;
 }
 
+
+
 @media screen and (max-width: 1000px) {
     .achievements ul {
         display: block;
@@ -12737,6 +12739,7 @@ textarea:not(:focus):valid~.floating-label[data-v-6cb69558] {
     .achievements li {
         width: 90%;
         margin-bottom: 20px;
+        margin-left:20px;
 
     }
 }
@@ -12753,48 +12756,11 @@ textarea:not(:focus):valid~.floating-label[data-v-6cb69558] {
     text-align: center;
   }
 
-/* #apply-section h3 {
-    background-image: conic-gradient(#2b9259 30%, #9ab4b0 40%, #6816aa 70%, #00c2cb 80%, #d60202);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    text-align: center;
-}
-
-#apply-section {
-    display: block;
-    margin: auto;
-    margin: 20px;
-    width: 100%;
-} */
-
 /* Applications Section */
-.applications {
-    padding: 2rem;
+#applications {
+    padding: 1rem;
     text-align: center;
-    margin: 2rem auto;
-}
-
-/* .section-title {
-    font-size: 6rem;
-    margin-bottom: 2rem;
-    color: #333;
-} */
-
-
-.application-box {
-    
-    width: 40%;
-    height: 10%;
-    border: 2px solid #333;
-    padding: 2rem;
-    border-radius: 1rem;
-    background-color: #f5f5f5;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
 }
 
 /* .application-box span {
@@ -12809,7 +12775,7 @@ textarea:not(:focus):valid~.floating-label[data-v-6cb69558] {
 } */
 
 .section-subtitle{
-    margin: 20px;
+    margin: 10px;
 
 }
 
@@ -12859,4 +12825,11 @@ textarea:not(:focus):valid~.floating-label[data-v-6cb69558] {
     100% {
         background-position: 100% 100%;
     }
+}
+
+
+.applicationflyer {
+    width: auto;
+    height: 400px;
+    object-fit: cover;
 }
